@@ -9,7 +9,7 @@ escreval("--C.H.A.T.A.--")
 escreval
 escreval
 escreval("Entrar como:")
-escreval("1 - Usuário")
+escreval("1 - UsuÃ¡rio")
 escreval("2 - Administrador")
 escreval
 escreva("")
@@ -28,7 +28,7 @@ escolha opcao1
       limpatela
       escreval("--INICIO--")
       escreval
-      escreval("1 - Matérias")
+      escreval("1 - MatÃ©rias")
       escreval("2 - Atividades")
       escreval
       escreva("Escolha: ")
@@ -36,10 +36,10 @@ escolha opcao1
         escolha opcao2
           caso 1
             limpatela
-            escreval("Em construção...")
+            escreval("Em construÃ§Ã£o...")
           caso 2
             limpatela
-            escreval("Em construção...")
+            escreval("Em construÃ§Ã£o...")
         fimescolha
       senao
         escreval("Login ou Senha incorretos!!! Reinicie o programa.")
@@ -53,11 +53,11 @@ escolha opcao1
         limpatela
         escreval("--INICIO ADM--")
         escreval
-        escreva("Adicionar conteúdo? ")
+        escreva("Adicionar conteÃºdo? ")
         leia(opcao3)
           se (opcao3 = "s") entao
             limpatela
-            escreval("Em construção...")
+            escreval("Em construÃ§Ã£o...")
           senao
             limpatela
             escreval("Erro!!!")
